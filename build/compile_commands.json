@@ -1,0 +1,142 @@
+[
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/GLSL.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/GLSL.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/GLSL.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Link.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Link.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Link.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/MatrixStack.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/MatrixStack.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/MatrixStack.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/ObjectiveLink.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/ObjectiveLink.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/ObjectiveLink.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Optimizer.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Optimizer.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Optimizer.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/OptimizerBFGS.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerBFGS.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerBFGS.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/OptimizerGD.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerGD.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerGD.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/OptimizerNM.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerNM.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerNM.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Program.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Program.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Program.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Shape.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Shape.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Shape.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Texture.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Texture.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Texture.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/main.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/main.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/context.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/context.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/init.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/init.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/input.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/input.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/monitor.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/monitor.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/vulkan.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/vulkan.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/window.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/window.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_init.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/x11_init.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/x11_init.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_monitor.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/x11_monitor.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/x11_monitor.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_window.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/x11_window.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/x11_window.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/xkb_unicode.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/xkb_unicode.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_time.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/posix_time.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/posix_time.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/posix_thread.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/posix_thread.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/glx_context.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/glx_context.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/glx_context.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/egl_context.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/egl_context.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/osmesa_context.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/osmesa_context.c"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src\" -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/linux_joystick.c.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/linux_joystick.c\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/src/linux_joystick.c"
+}
+]

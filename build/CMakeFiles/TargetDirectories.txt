@@ -1,0 +1,22 @@
+/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles/Crane.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles/list_install_components.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles/install.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles/install/local.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles/install/strip.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/CMakeFiles/uninstall.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/CMakeFiles/list_install_components.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/CMakeFiles/install.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/CMakeFiles/install/local.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/CMakeFiles/install/strip.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/update_mappings.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/list_install_components.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/install.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/install/local.dir
+/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/install/strip.dir
