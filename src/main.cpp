@@ -36,7 +36,9 @@ using namespace Eigen;
 
 char taskLetter = 'A';
 int taskNumber = 1;
-vector<double> linkLength = {1.0,1.0,1.0,1.0,1.0};
+
+Vector2d originOffset(-4.0,-1.0);
+vector<double> linkLength = {originOffset.x(),2.0,2.0,2.0,2.0};
 
 bool keyToggles[256] = {false}; // only for English keyboards!
 
@@ -109,8 +111,11 @@ static void createLinks()
 		auto link = make_shared<Link>();
 		links.push_back(link);
 		link->setAngle(0.0);
-		link->setPosition((i == 0 ? 0.0 : 1.0), 0.0);
-		E(0,3) = 0.5;
+		//sets the x positiion and y position of each link
+		link->setPosition((i == 0 ? originOffset.x() : linkLength.at(i)), 0.0);
+		//changes the scaling so links represent the length 
+		E(0,0) = linkLength.at(i);
+		E(0,3) = 0.5 * linkLength.at(i);
 
 		link->setMeshMatrix(E);
 		if(i > 0) {
@@ -235,6 +240,9 @@ static void cursor_position_callback(GLFWwindow* window, double xmouse, double y
 	Vector2d x;
 	x(0) = 2.0 * xmax * ((xmouse / width) - 0.5);
 	x(1) = 2.0 * ymax * (((height - ymouse) / height) - 0.5);
+
+	//does offset due to shifted origin
+	x(0) -= originOffset.x();
 	if(keyToggles[(unsigned)' ']) {
 		ik.target = x;
 		runIK();
@@ -359,6 +367,11 @@ void render()
 		glVertex2d( xmax, -y);
 	}
 	glEnd();
+	glBegin(GL_POINTS);
+	glColor3d(1.0, 0.0, 0.0);
+	glVertex2d(ik.target(0), ik.target(1));
+	glEnd();
+
 	progSimple->unbind();
 	
 	// Draw shape

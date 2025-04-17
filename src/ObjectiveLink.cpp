@@ -132,7 +132,7 @@ MatrixXd ObjectiveLink::CalcPos_Deriv1(const Eigen::VectorXd &theta) const {
 			T = Eigen::MatrixXd::Identity(3,3);
 			if(j > 0){
 				//sets Tx and Ty if not first (T_1)
-				T(0,2) = this->lengths.at(i);
+				T(0,2) = this->lengths.at(j);
 				T(1,2) = 0;
 			}
 			//uses the derivative if it is the current link 
