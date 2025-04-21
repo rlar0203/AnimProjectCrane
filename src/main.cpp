@@ -37,8 +37,8 @@ using namespace Eigen;
 char taskLetter = 'A';
 int taskNumber = 1;
 
-Vector2d originOffset(-4.0,-1.0);
-vector<double> linkLength = {originOffset.x(),2.0,2.0,2.0,2.0};
+Vector2d originOffset(0.0,2.0);
+vector<double> linkLength = {1.5,1.5,0.20,0.2};
 
 bool keyToggles[256] = {false}; // only for English keyboards!
 
@@ -69,15 +69,15 @@ static void createLinks()
 {
 	switch(taskNumber) {
 		case 1: //does GD
-		ik.nlinks = 4;
-		ik.target << 3.0, 1.0;
+		ik.nlinks = 3;
+		ik.target << 2.0, 1.0;
 		ik.weights << 1e3, 0.0, 1e0;
 
 		GD.setAlphaInit(1.0);
 		GD.setTol(pow(10,-6));
-		GD.setGamma(0.8);
+		GD.setGamma(0.5);
 		GD.setIterMaxLS(20);
-		GD.setIterMax(50);
+		GD.setIterMax(150);
 		break;
 		case 2: //does BFGs
 		ik.nlinks = 4;
@@ -91,8 +91,8 @@ static void createLinks()
 		BFGS.setIterMax(150);
 		break;
 		case 3:
-		ik.nlinks = 4;
-		ik.target << 3.0, 1.0;
+		ik.nlinks = 3;
+		ik.target << 2.0, 1.0;
 		ik.weights << 1e3, 0.0, 1e0;
 
 		BFGS.setAlphaInit(1.0);
@@ -112,11 +112,10 @@ static void createLinks()
 		links.push_back(link);
 		link->setAngle(0.0);
 		//sets the x positiion and y position of each link
-		link->setPosition((i == 0 ? originOffset.x() : linkLength.at(i)), 0.0);
+		link->setPosition((i == 0 ? originOffset.x() : linkLength.at(i-1)), (i == 0 ? originOffset.y() : 0));
 		//changes the scaling so links represent the length 
 		E(0,0) = linkLength.at(i);
 		E(0,3) = 0.5 * linkLength.at(i);
-
 		link->setMeshMatrix(E);
 		if(i > 0) {
 			links[i-1]->addChild(links[i]);
@@ -243,6 +242,8 @@ static void cursor_position_callback(GLFWwindow* window, double xmouse, double y
 
 	//does offset due to shifted origin
 	x(0) -= originOffset.x();
+	x(1) -= originOffset.y();
+
 	if(keyToggles[(unsigned)' ']) {
 		ik.target = x;
 		runIK();
@@ -367,10 +368,6 @@ void render()
 		glVertex2d( xmax, -y);
 	}
 	glEnd();
-	glBegin(GL_POINTS);
-	glColor3d(1.0, 0.0, 0.0);
-	glVertex2d(ik.target(0), ik.target(1));
-	glEnd();
 
 	progSimple->unbind();
 	
@@ -386,7 +383,7 @@ void render()
 	MV->popMatrix();
 	texture->unbind();
 	progTex->unbind();
-	
+
 	// Pop stacks
 	MV->popMatrix();
 	P->popMatrix();

@@ -405,6 +405,30 @@ src/OptimizerNM.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerNM.cpp.s
 .PHONY : src/OptimizerNM.cpp.s
 
+src/Particle.o: src/Particle.cpp.o
+.PHONY : src/Particle.o
+
+# target to build an object file
+src/Particle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Particle.cpp.o
+.PHONY : src/Particle.cpp.o
+
+src/Particle.i: src/Particle.cpp.i
+.PHONY : src/Particle.i
+
+# target to preprocess a source file
+src/Particle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Particle.cpp.i
+.PHONY : src/Particle.cpp.i
+
+src/Particle.s: src/Particle.cpp.s
+.PHONY : src/Particle.s
+
+# target to generate assembly for a file
+src/Particle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Particle.cpp.s
+.PHONY : src/Particle.cpp.s
+
 src/Program.o: src/Program.cpp.o
 .PHONY : src/Program.o
 
@@ -452,6 +476,30 @@ src/Shape.s: src/Shape.cpp.s
 src/Shape.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Shape.cpp.s
 .PHONY : src/Shape.cpp.s
+
+src/Spring.o: src/Spring.cpp.o
+.PHONY : src/Spring.o
+
+# target to build an object file
+src/Spring.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Spring.cpp.o
+.PHONY : src/Spring.cpp.o
+
+src/Spring.i: src/Spring.cpp.i
+.PHONY : src/Spring.i
+
+# target to preprocess a source file
+src/Spring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Spring.cpp.i
+.PHONY : src/Spring.cpp.i
+
+src/Spring.s: src/Spring.cpp.s
+.PHONY : src/Spring.s
+
+# target to generate assembly for a file
+src/Spring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Spring.cpp.s
+.PHONY : src/Spring.cpp.s
 
 src/Texture.o: src/Texture.cpp.o
 .PHONY : src/Texture.o
@@ -541,12 +589,18 @@ help:
 	@echo "... src/OptimizerNM.o"
 	@echo "... src/OptimizerNM.i"
 	@echo "... src/OptimizerNM.s"
+	@echo "... src/Particle.o"
+	@echo "... src/Particle.i"
+	@echo "... src/Particle.s"
 	@echo "... src/Program.o"
 	@echo "... src/Program.i"
 	@echo "... src/Program.s"
 	@echo "... src/Shape.o"
 	@echo "... src/Shape.i"
 	@echo "... src/Shape.s"
+	@echo "... src/Spring.o"
+	@echo "... src/Spring.i"
+	@echo "... src/Spring.s"
 	@echo "... src/Texture.o"
 	@echo "... src/Texture.i"
 	@echo "... src/Texture.s"

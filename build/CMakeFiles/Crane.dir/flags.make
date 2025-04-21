@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master" -I"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include" -I"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include" -I"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0"
+CXX_INCLUDES = -I"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master" -I"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include" -I"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include" -I"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0" -I"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl"
 
 CXX_FLAGS =  -Wall -pedantic
 

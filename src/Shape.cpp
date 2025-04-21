@@ -141,3 +141,45 @@ void Shape::draw() const
 
 	GLSL::checkError(GET_FILE_LINE);
 }
+
+void Shape::draw(const shared_ptr<Program> prog) const
+{
+	GLSL::checkError(GET_FILE_LINE);
+	// Bind position buffer
+	int h_pos = prog->getAttribute("aPos");
+	glEnableVertexAttribArray(h_pos);
+	glBindBuffer(GL_ARRAY_BUFFER, posBufID);
+	glVertexAttribPointer(h_pos, 3, GL_FLOAT, GL_FALSE, 0, (const void *)0);
+	
+	// Bind normal buffer
+	int h_nor = prog->getAttribute("aNor");
+	if(h_nor != -1 && norBufID != 0) {
+		glEnableVertexAttribArray(h_nor);
+		glBindBuffer(GL_ARRAY_BUFFER, norBufID);
+		glVertexAttribPointer(h_nor, 3, GL_FLOAT, GL_FALSE, 0, (const void *)0);
+	}
+	
+	// Bind texcoords buffer
+	int h_tex = prog->getAttribute("aTex");
+	if(h_tex != -1 && texBufID != 0) {
+		glEnableVertexAttribArray(h_tex);
+		glBindBuffer(GL_ARRAY_BUFFER, texBufID);
+		glVertexAttribPointer(h_tex, 2, GL_FLOAT, GL_FALSE, 0, (const void *)0);
+	}
+	
+	// Draw
+	int count = (int)posBuf.size()/3; // number of indices to be rendered
+	glDrawArrays(GL_TRIANGLES, 0, count);
+	
+	// Disable and unbind
+	if(h_tex != -1) {
+		glDisableVertexAttribArray(h_tex);
+	}
+	if(h_nor != -1) {
+		glDisableVertexAttribArray(h_nor);
+	}
+	glDisableVertexAttribArray(h_pos);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	
+	GLSL::checkError(GET_FILE_LINE);
+}

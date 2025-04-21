@@ -22,6 +22,7 @@ public:
 	void setProgram(std::shared_ptr<Program> p) { prog = p; }
 	virtual void init();
 	virtual void draw() const;
+	void draw(const std::shared_ptr<Program> prog) const;
 	void setTextureFilename(const std::string &f) { textureFilename = f; }
 	std::string getTextureFilename() const { return textureFilename; }
 	

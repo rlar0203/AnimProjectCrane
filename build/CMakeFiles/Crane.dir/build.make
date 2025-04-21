@@ -181,10 +181,24 @@ CMakeFiles/Crane.dir/src/OptimizerNM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crane.dir/src/OptimizerNM.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerNM.cpp" -o CMakeFiles/Crane.dir/src/OptimizerNM.cpp.s
 
+CMakeFiles/Crane.dir/src/Particle.cpp.o: CMakeFiles/Crane.dir/flags.make
+CMakeFiles/Crane.dir/src/Particle.cpp.o: ../src/Particle.cpp
+CMakeFiles/Crane.dir/src/Particle.cpp.o: CMakeFiles/Crane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Crane.dir/src/Particle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Crane.dir/src/Particle.cpp.o -MF CMakeFiles/Crane.dir/src/Particle.cpp.o.d -o CMakeFiles/Crane.dir/src/Particle.cpp.o -c "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Particle.cpp"
+
+CMakeFiles/Crane.dir/src/Particle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crane.dir/src/Particle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Particle.cpp" > CMakeFiles/Crane.dir/src/Particle.cpp.i
+
+CMakeFiles/Crane.dir/src/Particle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crane.dir/src/Particle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Particle.cpp" -o CMakeFiles/Crane.dir/src/Particle.cpp.s
+
 CMakeFiles/Crane.dir/src/Program.cpp.o: CMakeFiles/Crane.dir/flags.make
 CMakeFiles/Crane.dir/src/Program.cpp.o: ../src/Program.cpp
 CMakeFiles/Crane.dir/src/Program.cpp.o: CMakeFiles/Crane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Crane.dir/src/Program.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Crane.dir/src/Program.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Crane.dir/src/Program.cpp.o -MF CMakeFiles/Crane.dir/src/Program.cpp.o.d -o CMakeFiles/Crane.dir/src/Program.cpp.o -c "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Program.cpp"
 
 CMakeFiles/Crane.dir/src/Program.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/Crane.dir/src/Program.cpp.s: cmake_force
 CMakeFiles/Crane.dir/src/Shape.cpp.o: CMakeFiles/Crane.dir/flags.make
 CMakeFiles/Crane.dir/src/Shape.cpp.o: ../src/Shape.cpp
 CMakeFiles/Crane.dir/src/Shape.cpp.o: CMakeFiles/Crane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Crane.dir/src/Shape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Crane.dir/src/Shape.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Crane.dir/src/Shape.cpp.o -MF CMakeFiles/Crane.dir/src/Shape.cpp.o.d -o CMakeFiles/Crane.dir/src/Shape.cpp.o -c "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Shape.cpp"
 
 CMakeFiles/Crane.dir/src/Shape.cpp.i: cmake_force
@@ -209,10 +223,24 @@ CMakeFiles/Crane.dir/src/Shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crane.dir/src/Shape.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Shape.cpp" -o CMakeFiles/Crane.dir/src/Shape.cpp.s
 
+CMakeFiles/Crane.dir/src/Spring.cpp.o: CMakeFiles/Crane.dir/flags.make
+CMakeFiles/Crane.dir/src/Spring.cpp.o: ../src/Spring.cpp
+CMakeFiles/Crane.dir/src/Spring.cpp.o: CMakeFiles/Crane.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Crane.dir/src/Spring.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Crane.dir/src/Spring.cpp.o -MF CMakeFiles/Crane.dir/src/Spring.cpp.o.d -o CMakeFiles/Crane.dir/src/Spring.cpp.o -c "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Spring.cpp"
+
+CMakeFiles/Crane.dir/src/Spring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crane.dir/src/Spring.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Spring.cpp" > CMakeFiles/Crane.dir/src/Spring.cpp.i
+
+CMakeFiles/Crane.dir/src/Spring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crane.dir/src/Spring.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Spring.cpp" -o CMakeFiles/Crane.dir/src/Spring.cpp.s
+
 CMakeFiles/Crane.dir/src/Texture.cpp.o: CMakeFiles/Crane.dir/flags.make
 CMakeFiles/Crane.dir/src/Texture.cpp.o: ../src/Texture.cpp
 CMakeFiles/Crane.dir/src/Texture.cpp.o: CMakeFiles/Crane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Crane.dir/src/Texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Crane.dir/src/Texture.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Crane.dir/src/Texture.cpp.o -MF CMakeFiles/Crane.dir/src/Texture.cpp.o.d -o CMakeFiles/Crane.dir/src/Texture.cpp.o -c "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Texture.cpp"
 
 CMakeFiles/Crane.dir/src/Texture.cpp.i: cmake_force
@@ -226,7 +254,7 @@ CMakeFiles/Crane.dir/src/Texture.cpp.s: cmake_force
 CMakeFiles/Crane.dir/src/main.cpp.o: CMakeFiles/Crane.dir/flags.make
 CMakeFiles/Crane.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Crane.dir/src/main.cpp.o: CMakeFiles/Crane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Crane.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Crane.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Crane.dir/src/main.cpp.o -MF CMakeFiles/Crane.dir/src/main.cpp.o.d -o CMakeFiles/Crane.dir/src/main.cpp.o -c "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/main.cpp"
 
 CMakeFiles/Crane.dir/src/main.cpp.i: cmake_force
@@ -247,8 +275,10 @@ Crane_OBJECTS = \
 "CMakeFiles/Crane.dir/src/OptimizerBFGS.cpp.o" \
 "CMakeFiles/Crane.dir/src/OptimizerGD.cpp.o" \
 "CMakeFiles/Crane.dir/src/OptimizerNM.cpp.o" \
+"CMakeFiles/Crane.dir/src/Particle.cpp.o" \
 "CMakeFiles/Crane.dir/src/Program.cpp.o" \
 "CMakeFiles/Crane.dir/src/Shape.cpp.o" \
+"CMakeFiles/Crane.dir/src/Spring.cpp.o" \
 "CMakeFiles/Crane.dir/src/Texture.cpp.o" \
 "CMakeFiles/Crane.dir/src/main.cpp.o"
 
@@ -263,8 +293,10 @@ Crane: CMakeFiles/Crane.dir/src/Optimizer.cpp.o
 Crane: CMakeFiles/Crane.dir/src/OptimizerBFGS.cpp.o
 Crane: CMakeFiles/Crane.dir/src/OptimizerGD.cpp.o
 Crane: CMakeFiles/Crane.dir/src/OptimizerNM.cpp.o
+Crane: CMakeFiles/Crane.dir/src/Particle.cpp.o
 Crane: CMakeFiles/Crane.dir/src/Program.cpp.o
 Crane: CMakeFiles/Crane.dir/src/Shape.cpp.o
+Crane: CMakeFiles/Crane.dir/src/Spring.cpp.o
 Crane: CMakeFiles/Crane.dir/src/Texture.cpp.o
 Crane: CMakeFiles/Crane.dir/src/main.cpp.o
 Crane: CMakeFiles/Crane.dir/build.make
@@ -274,7 +306,7 @@ Crane: /usr/lib/x86_64-linux-gnu/librt.a
 Crane: /usr/lib/x86_64-linux-gnu/libm.so
 Crane: /usr/lib/x86_64-linux-gnu/libX11.so
 Crane: CMakeFiles/Crane.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Crane"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Crane"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Crane.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -9,7 +9,7 @@ ObjectiveLink::ObjectiveLink(Vector3d weights, int num_links,const VectorXd pos_
     this->pos_targ = pos_targ;
 	lengths = _lengths;
 	//gets nxn wreg matrix 
-	Wreg = MatrixXd(num_links,num_links);
+	Wreg = MatrixXd::Zero(num_links,num_links);
 	for(int i = 0; i < num_links; i++) {
 		if(i == 0){
 			Wreg(i,i) = weights(1);
@@ -89,7 +89,7 @@ VectorXd ObjectiveLink::CalcDeltPos(const Eigen::VectorXd &pos_targ, const Eigen
 		T = Eigen::MatrixXd::Identity(3,3);
 		if(i > 0){
 			//sets Tx and Ty if not first (T_1)
-			T(0,2) = this->lengths.at(i);
+			T(0,2) = this->lengths.at(i-1);
 			T(1,2) = 0;
 		}
 		R = Eigen::MatrixXd::Identity(3,3);
@@ -132,7 +132,7 @@ MatrixXd ObjectiveLink::CalcPos_Deriv1(const Eigen::VectorXd &theta) const {
 			T = Eigen::MatrixXd::Identity(3,3);
 			if(j > 0){
 				//sets Tx and Ty if not first (T_1)
-				T(0,2) = this->lengths.at(j);
+				T(0,2) = this->lengths.at(j-1);
 				T(1,2) = 0;
 			}
 			//uses the derivative if it is the current link 
@@ -180,7 +180,7 @@ MatrixXd ObjectiveLink::CalcPos_Deriv2(const Eigen::VectorXd &theta, const Eigen
 			T = Eigen::MatrixXd::Identity(3,3);
 			if(j > 0){
 				//sets Tx and Ty if not first (T_1)
-				T(0,2) = this->lengths.at(j);
+				T(0,2) = this->lengths.at(j-1);
 				T(1,2) = 0;
 			}
 			//uses the derivative if it is the current link 
