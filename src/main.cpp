@@ -1,10 +1,14 @@
 #define _USE_MATH_DEFINES
 #include <cmath>
 #include <iostream>
+#include <cstdlib>
+#include <stdio.h>
+#include <stdlib.h>
 #include <sstream>
 #include <vector>
 #include <fstream>
 #include <string>
+#include <thread>
 
 #define GLEW_STATIC
 #include <GL/glew.h>
@@ -17,18 +21,22 @@
 
 #include <Eigen/Dense>
 
+
 #include "GLSL.h"
 #include "Program.h"
 #include "MatrixStack.h"
 #include "Shape.h"
+#include "Scene.h"
 #include "Texture.h"
-#include "Link.h"
+#include "Arm/Link.h"
 
 
-#include "ObjectiveLink.h"
-#include "OptimizerGD.h"
-#include "OptimizerBFGS.h"
-#include "OptimizerNM.h"
+#include "Arm/ObjectiveLink.h"
+#include "Arm/OptimizerGD.h"
+#include "Arm/OptimizerBFGS.h"
+#include "Arm/OptimizerNM.h"
+
+
 
 using namespace std;
 using namespace glm;
@@ -47,12 +55,18 @@ string RESOURCE_DIR = ""; // Where the resources are loaded from
 
 shared_ptr<Program> progSimple;
 shared_ptr<Program> progTex;
+shared_ptr<Program> prog;
+shared_ptr<Scene> scene;
 shared_ptr<Shape> shape;
 shared_ptr<Texture> texture;
+
+// https://stackoverflow.com/questions/41470942/stop-infinite-loop-in-different-thread
+std::atomic<bool> stop_flag;
 
 vector<shared_ptr<Link> > links;
 OptimizerBFGS BFGS;
 OptimizerGD GD;
+
 
 class IK
 {
@@ -80,8 +94,8 @@ static void createLinks()
 		GD.setIterMax(150);
 		break;
 		case 2: //does BFGs
-		ik.nlinks = 4;
-		ik.target << 3.0, 1.0;
+		ik.nlinks = 2;
+		ik.target << 1.0, 1.0;
 		ik.weights << 1e3, 0.0, 1e0;
 
 		BFGS.setAlphaInit(1.0);
@@ -193,6 +207,7 @@ static void error_callback(int error, const char *description)
 static void key_callback(GLFWwindow *window, int key, int scancode, int action, int mods)
 {
 	if(key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
+		stop_flag = true;
 		glfwSetWindowShouldClose(window, GL_TRUE);
 	}
 }
@@ -206,6 +221,10 @@ static void char_callback(GLFWwindow *window, unsigned int key)
 			for(auto link : links) {
 				link->setAngle(0.0);
 			}
+			scene->reset();
+			break;
+		case 'h':
+			scene->step();
 			break;
 		case '.':
 			// Increment all angles
@@ -237,8 +256,8 @@ static void cursor_position_callback(GLFWwindow* window, double xmouse, double y
 	double ymax = (double)links.size();
 	double xmax = aspect*ymax;
 	Vector2d x;
-	x(0) = 2.0 * xmax * ((xmouse / width) - 0.5);
-	x(1) = 2.0 * ymax * (((height - ymouse) / height) - 0.5);
+	x(0) = 2.0 * xmax * ((xmouse / width) - 0.5 );
+	x(1) = 2.0 * ymax * (((height - ymouse) / height) - 0.5 );
 
 	//does offset due to shifted origin
 	x(0) -= originOffset.x();
@@ -265,6 +284,9 @@ static void init()
 	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 	// Enable z-buffer test
 	glEnable(GL_DEPTH_TEST);
+	// Enable alpha blending
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);	
 	
 	keyToggles[(unsigned)'c'] = true;
 	
@@ -275,6 +297,19 @@ static void init()
 	progSimple->addUniform("P");
 	progSimple->addUniform("MV");
 	progSimple->setVerbose(false);
+
+	prog = make_shared<Program>();
+	prog->setVerbose(true); // Set this to true when debugging.
+	prog->setShaderNames(RESOURCE_DIR + "phong_vert.glsl", RESOURCE_DIR + "phong_frag.glsl");
+	prog->init();
+	prog->addUniform("P");
+	prog->addUniform("MV");
+	prog->addUniform("kdFront");
+	prog->addUniform("kdBack");
+	prog->addAttribute("aPos");
+	prog->addAttribute("aNor");
+	prog->addAttribute("aTex");
+	prog->setVerbose(false);
 	
 	progTex = make_shared<Program>();
 	progTex->setVerbose(true); // Set this to true when debugging.
@@ -291,7 +326,14 @@ static void init()
 	texture->setFilename(RESOURCE_DIR + "metal_texture_15_by_wojtar_stock.jpg");
 	texture->init();
 	texture->setUnit(0);
+
+	//loads in the Objects 
+	scene = make_shared<Scene>();
+	scene->load(RESOURCE_DIR);
+	scene->tare();
+	scene->init();
 	
+	//loads in the IK links
 	shape = make_shared<Shape>();
 	shape->loadMesh(RESOURCE_DIR + "link.obj");
 	shape->setProgram(progTex);
@@ -304,6 +346,29 @@ static void init()
 	// You can intersperse this line in your code to find the exact location
 	// of your OpenGL error.
 	GLSL::checkError(GET_FILE_LINE);
+}
+void stepperFunc()
+{
+	double t = 0;
+	int n = 0;
+	while(!stop_flag) {
+		auto t0 = std::chrono::system_clock::now();
+		if(keyToggles[(unsigned)' ']) {
+			scene->step();
+		}
+		auto t1 = std::chrono::system_clock::now();
+		double dt = std::chrono::duration_cast<std::chrono::microseconds>(t1 - t0).count();
+		t += dt*1e-3;
+		n++;
+		this_thread::sleep_for(chrono::microseconds(1));
+		if(t > 1000) {
+			if(keyToggles[(unsigned)' '] && keyToggles[(unsigned)'t']) {
+				cout << t/n << " ms/step" << endl;
+			}
+			t = 0;
+			n = 0;
+		}
+	}
 }
 
 void render()
@@ -336,12 +401,12 @@ void render()
 	double ymax = (double)links.size();
 	double xmax = aspect*ymax;
 	P->multMatrix(glm::ortho(-xmax, xmax, -ymax, ymax, -1.0, 1.0));
-	//shifts everyting so the crane starts at the left
-	//MV->translate(-4.0f ,-1.0f , 0.0f);
+	
 	// Draw grid
 	progSimple->bind();
 	glUniformMatrix4fv(progSimple->getUniform("P"), 1, GL_FALSE, glm::value_ptr(P->topMatrix()));
 	glUniformMatrix4fv(progSimple->getUniform("MV"), 1, GL_FALSE, glm::value_ptr(MV->topMatrix()));
+	
 	// Draw axes
 	glLineWidth(2.0f);
 	glColor3d(0.2, 0.2, 0.2);
@@ -351,6 +416,7 @@ void render()
 	glVertex2d(0.0, -ymax);
 	glVertex2d(0.0,  ymax);
 	glEnd();
+
 	// Draw grid lines
 	glLineWidth(1.0f);
 	glColor3d(0.8, 0.8, 0.8);
@@ -369,15 +435,24 @@ void render()
 	}
 	glEnd();
 
+	
+
 	progSimple->unbind();
 	
+	// Draw scene
+	prog->bind();
+	glUniformMatrix4fv(prog->getUniform("P"), 1, GL_FALSE, glm::value_ptr(P->topMatrix()));
+	MV->pushMatrix();
+	scene->draw(MV, prog);
+	MV->popMatrix();
+	prog->unbind();
+
 	// Draw shape
 	progTex->bind();
 	texture->bind(progTex->getUniform("texture0"));
 	glUniformMatrix4fv(progTex->getUniform("P"), 1, GL_FALSE, glm::value_ptr(P->topMatrix()));
 	MV->pushMatrix();
 	if(!links.empty()) {
-		
 		links.front()->draw(progTex, MV, shape);
 	}
 	MV->popMatrix();
@@ -404,21 +479,12 @@ int main(int argc, char **argv)
 	}
 	string type = argv[2];
 	if(type.length() < 3) {
-		cout << "Please specify A.1-A.5 or B.1-B.5." << endl;
+		cout << "Please specify C.1 - C.2" << endl;
 	}
 	taskLetter = type.at(0);
 	taskNumber = type.at(2) - '0';
 	
-	if(taskLetter == 'A') {
-		// Task A
-		
-		cout << "no longer Available" << endl;
-		return 0;
-	}
-	
-	// Task B
-	bool useGL = (argc == 4);
-	if(useGL) {
+
 		// Set error callback.
 		glfwSetErrorCallback(error_callback);
 		// Initialize the library.
@@ -455,6 +521,9 @@ int main(int argc, char **argv)
 		// Initialize scene.
 		init();
 		createLinks();
+		// Start simulation thread.
+		stop_flag = false;
+		thread stepperThread(stepperFunc);
 		// Loop until the user closes the window.
 		while(!glfwWindowShouldClose(window)) {
 			if(!glfwGetWindowAttrib(window, GLFW_ICONIFIED)) {
@@ -467,12 +536,10 @@ int main(int argc, char **argv)
 			glfwPollEvents();
 		}
 		// Quit program.
+		stop_flag = true;
+		stepperThread.join();
 		glfwDestroyWindow(window);
 		glfwTerminate();
-	} else {
-		createLinks();
-		string output = runIK();
-		writeOutput(output);
-	}
+
 	return 0;
 }

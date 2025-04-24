@@ -168,16 +168,24 @@ CMakeFiles/Crane.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/stdlib.h \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/fstream \
  /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
+ /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
+ /usr/include/c++/11/bits/unique_ptr.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
+ /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
+ /usr/include/c++/11/bits/parse_numbers.h \
  /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glew-2.1.0/include/GL/glew.h \
  /usr/include/GL/glu.h /usr/include/GL/gl.h \
  /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-3.3.9/include/GLFW/glfw3.h \
@@ -223,11 +231,7 @@ CMakeFiles/Crane.dir/src/main.cpp.o: \
  /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glm-master/glm/./ext/../detail/type_vec3.hpp \
  /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glm-master/glm/./ext/../detail/type_vec3.inl \
  /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glm-master/glm/./ext/../detail/compute_vector_decl.hpp \
- /usr/include/c++/11/functional /usr/include/c++/11/tuple \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
- /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/hashtable.h \
@@ -413,7 +417,7 @@ CMakeFiles/Crane.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
- /usr/include/c++/11/stdlib.h /usr/include/c++/11/complex \
+ /usr/include/c++/11/complex \
  /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/eigen-3.4.0/Eigen/src/Core/util/MKL_support.h \
  /usr/include/c++/11/algorithm \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
@@ -615,7 +619,6 @@ CMakeFiles/Crane.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/stl_stack.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/shared_ptr_base.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
@@ -624,11 +627,12 @@ CMakeFiles/Crane.dir/src/main.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Shape.h \
+ /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Scene.h \
  /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Texture.h \
- /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Link.h \
- /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/ObjectiveLink.h \
- /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Objective.h \
- /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/OptimizerGD.h \
- /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Optimizer.h \
- /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/OptimizerBFGS.h \
- /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/OptimizerNM.h
+ /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Arm/Link.h \
+ /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Arm/ObjectiveLink.h \
+ /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Arm/Objective.h \
+ /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Arm/OptimizerGD.h \
+ /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Arm/Optimizer.h \
+ /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Arm/OptimizerBFGS.h \
+ /mnt/c/Users/rlar0/Documents/Programming\ assignment/CSCE\ 450/AnimProjectCrane/src/Arm/OptimizerNM.h

@@ -213,6 +213,150 @@ glfw/fast:
 	$(MAKE) $(MAKESILENT) -f "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/build.make" "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/build"
 .PHONY : glfw/fast
 
+src/Arm/Link.o: src/Arm/Link.cpp.o
+.PHONY : src/Arm/Link.o
+
+# target to build an object file
+src/Arm/Link.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/Link.cpp.o
+.PHONY : src/Arm/Link.cpp.o
+
+src/Arm/Link.i: src/Arm/Link.cpp.i
+.PHONY : src/Arm/Link.i
+
+# target to preprocess a source file
+src/Arm/Link.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/Link.cpp.i
+.PHONY : src/Arm/Link.cpp.i
+
+src/Arm/Link.s: src/Arm/Link.cpp.s
+.PHONY : src/Arm/Link.s
+
+# target to generate assembly for a file
+src/Arm/Link.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/Link.cpp.s
+.PHONY : src/Arm/Link.cpp.s
+
+src/Arm/ObjectiveLink.o: src/Arm/ObjectiveLink.cpp.o
+.PHONY : src/Arm/ObjectiveLink.o
+
+# target to build an object file
+src/Arm/ObjectiveLink.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/ObjectiveLink.cpp.o
+.PHONY : src/Arm/ObjectiveLink.cpp.o
+
+src/Arm/ObjectiveLink.i: src/Arm/ObjectiveLink.cpp.i
+.PHONY : src/Arm/ObjectiveLink.i
+
+# target to preprocess a source file
+src/Arm/ObjectiveLink.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/ObjectiveLink.cpp.i
+.PHONY : src/Arm/ObjectiveLink.cpp.i
+
+src/Arm/ObjectiveLink.s: src/Arm/ObjectiveLink.cpp.s
+.PHONY : src/Arm/ObjectiveLink.s
+
+# target to generate assembly for a file
+src/Arm/ObjectiveLink.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/ObjectiveLink.cpp.s
+.PHONY : src/Arm/ObjectiveLink.cpp.s
+
+src/Arm/Optimizer.o: src/Arm/Optimizer.cpp.o
+.PHONY : src/Arm/Optimizer.o
+
+# target to build an object file
+src/Arm/Optimizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/Optimizer.cpp.o
+.PHONY : src/Arm/Optimizer.cpp.o
+
+src/Arm/Optimizer.i: src/Arm/Optimizer.cpp.i
+.PHONY : src/Arm/Optimizer.i
+
+# target to preprocess a source file
+src/Arm/Optimizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/Optimizer.cpp.i
+.PHONY : src/Arm/Optimizer.cpp.i
+
+src/Arm/Optimizer.s: src/Arm/Optimizer.cpp.s
+.PHONY : src/Arm/Optimizer.s
+
+# target to generate assembly for a file
+src/Arm/Optimizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/Optimizer.cpp.s
+.PHONY : src/Arm/Optimizer.cpp.s
+
+src/Arm/OptimizerBFGS.o: src/Arm/OptimizerBFGS.cpp.o
+.PHONY : src/Arm/OptimizerBFGS.o
+
+# target to build an object file
+src/Arm/OptimizerBFGS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerBFGS.cpp.o
+.PHONY : src/Arm/OptimizerBFGS.cpp.o
+
+src/Arm/OptimizerBFGS.i: src/Arm/OptimizerBFGS.cpp.i
+.PHONY : src/Arm/OptimizerBFGS.i
+
+# target to preprocess a source file
+src/Arm/OptimizerBFGS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerBFGS.cpp.i
+.PHONY : src/Arm/OptimizerBFGS.cpp.i
+
+src/Arm/OptimizerBFGS.s: src/Arm/OptimizerBFGS.cpp.s
+.PHONY : src/Arm/OptimizerBFGS.s
+
+# target to generate assembly for a file
+src/Arm/OptimizerBFGS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerBFGS.cpp.s
+.PHONY : src/Arm/OptimizerBFGS.cpp.s
+
+src/Arm/OptimizerGD.o: src/Arm/OptimizerGD.cpp.o
+.PHONY : src/Arm/OptimizerGD.o
+
+# target to build an object file
+src/Arm/OptimizerGD.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerGD.cpp.o
+.PHONY : src/Arm/OptimizerGD.cpp.o
+
+src/Arm/OptimizerGD.i: src/Arm/OptimizerGD.cpp.i
+.PHONY : src/Arm/OptimizerGD.i
+
+# target to preprocess a source file
+src/Arm/OptimizerGD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerGD.cpp.i
+.PHONY : src/Arm/OptimizerGD.cpp.i
+
+src/Arm/OptimizerGD.s: src/Arm/OptimizerGD.cpp.s
+.PHONY : src/Arm/OptimizerGD.s
+
+# target to generate assembly for a file
+src/Arm/OptimizerGD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerGD.cpp.s
+.PHONY : src/Arm/OptimizerGD.cpp.s
+
+src/Arm/OptimizerNM.o: src/Arm/OptimizerNM.cpp.o
+.PHONY : src/Arm/OptimizerNM.o
+
+# target to build an object file
+src/Arm/OptimizerNM.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerNM.cpp.o
+.PHONY : src/Arm/OptimizerNM.cpp.o
+
+src/Arm/OptimizerNM.i: src/Arm/OptimizerNM.cpp.i
+.PHONY : src/Arm/OptimizerNM.i
+
+# target to preprocess a source file
+src/Arm/OptimizerNM.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerNM.cpp.i
+.PHONY : src/Arm/OptimizerNM.cpp.i
+
+src/Arm/OptimizerNM.s: src/Arm/OptimizerNM.cpp.s
+.PHONY : src/Arm/OptimizerNM.s
+
+# target to generate assembly for a file
+src/Arm/OptimizerNM.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Arm/OptimizerNM.cpp.s
+.PHONY : src/Arm/OptimizerNM.cpp.s
+
 src/GLSL.o: src/GLSL.cpp.o
 .PHONY : src/GLSL.o
 
@@ -236,30 +380,6 @@ src/GLSL.s: src/GLSL.cpp.s
 src/GLSL.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/GLSL.cpp.s
 .PHONY : src/GLSL.cpp.s
-
-src/Link.o: src/Link.cpp.o
-.PHONY : src/Link.o
-
-# target to build an object file
-src/Link.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Link.cpp.o
-.PHONY : src/Link.cpp.o
-
-src/Link.i: src/Link.cpp.i
-.PHONY : src/Link.i
-
-# target to preprocess a source file
-src/Link.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Link.cpp.i
-.PHONY : src/Link.cpp.i
-
-src/Link.s: src/Link.cpp.s
-.PHONY : src/Link.s
-
-# target to generate assembly for a file
-src/Link.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Link.cpp.s
-.PHONY : src/Link.cpp.s
 
 src/MatrixStack.o: src/MatrixStack.cpp.o
 .PHONY : src/MatrixStack.o
@@ -285,125 +405,29 @@ src/MatrixStack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/MatrixStack.cpp.s
 .PHONY : src/MatrixStack.cpp.s
 
-src/ObjectiveLink.o: src/ObjectiveLink.cpp.o
-.PHONY : src/ObjectiveLink.o
+src/PBDobject.o: src/PBDobject.cpp.o
+.PHONY : src/PBDobject.o
 
 # target to build an object file
-src/ObjectiveLink.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/ObjectiveLink.cpp.o
-.PHONY : src/ObjectiveLink.cpp.o
+src/PBDobject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/PBDobject.cpp.o
+.PHONY : src/PBDobject.cpp.o
 
-src/ObjectiveLink.i: src/ObjectiveLink.cpp.i
-.PHONY : src/ObjectiveLink.i
-
-# target to preprocess a source file
-src/ObjectiveLink.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/ObjectiveLink.cpp.i
-.PHONY : src/ObjectiveLink.cpp.i
-
-src/ObjectiveLink.s: src/ObjectiveLink.cpp.s
-.PHONY : src/ObjectiveLink.s
-
-# target to generate assembly for a file
-src/ObjectiveLink.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/ObjectiveLink.cpp.s
-.PHONY : src/ObjectiveLink.cpp.s
-
-src/Optimizer.o: src/Optimizer.cpp.o
-.PHONY : src/Optimizer.o
-
-# target to build an object file
-src/Optimizer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Optimizer.cpp.o
-.PHONY : src/Optimizer.cpp.o
-
-src/Optimizer.i: src/Optimizer.cpp.i
-.PHONY : src/Optimizer.i
+src/PBDobject.i: src/PBDobject.cpp.i
+.PHONY : src/PBDobject.i
 
 # target to preprocess a source file
-src/Optimizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Optimizer.cpp.i
-.PHONY : src/Optimizer.cpp.i
+src/PBDobject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/PBDobject.cpp.i
+.PHONY : src/PBDobject.cpp.i
 
-src/Optimizer.s: src/Optimizer.cpp.s
-.PHONY : src/Optimizer.s
-
-# target to generate assembly for a file
-src/Optimizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Optimizer.cpp.s
-.PHONY : src/Optimizer.cpp.s
-
-src/OptimizerBFGS.o: src/OptimizerBFGS.cpp.o
-.PHONY : src/OptimizerBFGS.o
-
-# target to build an object file
-src/OptimizerBFGS.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerBFGS.cpp.o
-.PHONY : src/OptimizerBFGS.cpp.o
-
-src/OptimizerBFGS.i: src/OptimizerBFGS.cpp.i
-.PHONY : src/OptimizerBFGS.i
-
-# target to preprocess a source file
-src/OptimizerBFGS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerBFGS.cpp.i
-.PHONY : src/OptimizerBFGS.cpp.i
-
-src/OptimizerBFGS.s: src/OptimizerBFGS.cpp.s
-.PHONY : src/OptimizerBFGS.s
+src/PBDobject.s: src/PBDobject.cpp.s
+.PHONY : src/PBDobject.s
 
 # target to generate assembly for a file
-src/OptimizerBFGS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerBFGS.cpp.s
-.PHONY : src/OptimizerBFGS.cpp.s
-
-src/OptimizerGD.o: src/OptimizerGD.cpp.o
-.PHONY : src/OptimizerGD.o
-
-# target to build an object file
-src/OptimizerGD.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerGD.cpp.o
-.PHONY : src/OptimizerGD.cpp.o
-
-src/OptimizerGD.i: src/OptimizerGD.cpp.i
-.PHONY : src/OptimizerGD.i
-
-# target to preprocess a source file
-src/OptimizerGD.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerGD.cpp.i
-.PHONY : src/OptimizerGD.cpp.i
-
-src/OptimizerGD.s: src/OptimizerGD.cpp.s
-.PHONY : src/OptimizerGD.s
-
-# target to generate assembly for a file
-src/OptimizerGD.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerGD.cpp.s
-.PHONY : src/OptimizerGD.cpp.s
-
-src/OptimizerNM.o: src/OptimizerNM.cpp.o
-.PHONY : src/OptimizerNM.o
-
-# target to build an object file
-src/OptimizerNM.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerNM.cpp.o
-.PHONY : src/OptimizerNM.cpp.o
-
-src/OptimizerNM.i: src/OptimizerNM.cpp.i
-.PHONY : src/OptimizerNM.i
-
-# target to preprocess a source file
-src/OptimizerNM.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerNM.cpp.i
-.PHONY : src/OptimizerNM.cpp.i
-
-src/OptimizerNM.s: src/OptimizerNM.cpp.s
-.PHONY : src/OptimizerNM.s
-
-# target to generate assembly for a file
-src/OptimizerNM.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/OptimizerNM.cpp.s
-.PHONY : src/OptimizerNM.cpp.s
+src/PBDobject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/PBDobject.cpp.s
+.PHONY : src/PBDobject.cpp.s
 
 src/Particle.o: src/Particle.cpp.o
 .PHONY : src/Particle.o
@@ -452,6 +476,30 @@ src/Program.s: src/Program.cpp.s
 src/Program.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Program.cpp.s
 .PHONY : src/Program.cpp.s
+
+src/Scene.o: src/Scene.cpp.o
+.PHONY : src/Scene.o
+
+# target to build an object file
+src/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Scene.cpp.o
+.PHONY : src/Scene.cpp.o
+
+src/Scene.i: src/Scene.cpp.i
+.PHONY : src/Scene.i
+
+# target to preprocess a source file
+src/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Scene.cpp.i
+.PHONY : src/Scene.cpp.i
+
+src/Scene.s: src/Scene.cpp.s
+.PHONY : src/Scene.s
+
+# target to generate assembly for a file
+src/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/src/Scene.cpp.s
+.PHONY : src/Scene.cpp.s
 
 src/Shape.o: src/Shape.cpp.o
 .PHONY : src/Shape.o
@@ -565,36 +613,42 @@ help:
 	@echo "... update_mappings"
 	@echo "... Crane"
 	@echo "... glfw"
+	@echo "... src/Arm/Link.o"
+	@echo "... src/Arm/Link.i"
+	@echo "... src/Arm/Link.s"
+	@echo "... src/Arm/ObjectiveLink.o"
+	@echo "... src/Arm/ObjectiveLink.i"
+	@echo "... src/Arm/ObjectiveLink.s"
+	@echo "... src/Arm/Optimizer.o"
+	@echo "... src/Arm/Optimizer.i"
+	@echo "... src/Arm/Optimizer.s"
+	@echo "... src/Arm/OptimizerBFGS.o"
+	@echo "... src/Arm/OptimizerBFGS.i"
+	@echo "... src/Arm/OptimizerBFGS.s"
+	@echo "... src/Arm/OptimizerGD.o"
+	@echo "... src/Arm/OptimizerGD.i"
+	@echo "... src/Arm/OptimizerGD.s"
+	@echo "... src/Arm/OptimizerNM.o"
+	@echo "... src/Arm/OptimizerNM.i"
+	@echo "... src/Arm/OptimizerNM.s"
 	@echo "... src/GLSL.o"
 	@echo "... src/GLSL.i"
 	@echo "... src/GLSL.s"
-	@echo "... src/Link.o"
-	@echo "... src/Link.i"
-	@echo "... src/Link.s"
 	@echo "... src/MatrixStack.o"
 	@echo "... src/MatrixStack.i"
 	@echo "... src/MatrixStack.s"
-	@echo "... src/ObjectiveLink.o"
-	@echo "... src/ObjectiveLink.i"
-	@echo "... src/ObjectiveLink.s"
-	@echo "... src/Optimizer.o"
-	@echo "... src/Optimizer.i"
-	@echo "... src/Optimizer.s"
-	@echo "... src/OptimizerBFGS.o"
-	@echo "... src/OptimizerBFGS.i"
-	@echo "... src/OptimizerBFGS.s"
-	@echo "... src/OptimizerGD.o"
-	@echo "... src/OptimizerGD.i"
-	@echo "... src/OptimizerGD.s"
-	@echo "... src/OptimizerNM.o"
-	@echo "... src/OptimizerNM.i"
-	@echo "... src/OptimizerNM.s"
+	@echo "... src/PBDobject.o"
+	@echo "... src/PBDobject.i"
+	@echo "... src/PBDobject.s"
 	@echo "... src/Particle.o"
 	@echo "... src/Particle.i"
 	@echo "... src/Particle.s"
 	@echo "... src/Program.o"
 	@echo "... src/Program.i"
 	@echo "... src/Program.s"
+	@echo "... src/Scene.o"
+	@echo "... src/Scene.i"
+	@echo "... src/Scene.s"
 	@echo "... src/Shape.o"
 	@echo "... src/Shape.i"
 	@echo "... src/Shape.s"

@@ -1,13 +1,38 @@
 [
 {
   "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
-  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/GLSL.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/GLSL.cpp\"",
-  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/GLSL.cpp"
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Arm/Link.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/Link.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/Link.cpp"
 },
 {
   "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
-  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Link.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Link.cpp\"",
-  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Link.cpp"
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Arm/ObjectiveLink.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/ObjectiveLink.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/ObjectiveLink.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Arm/Optimizer.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/Optimizer.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/Optimizer.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Arm/OptimizerBFGS.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/OptimizerBFGS.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/OptimizerBFGS.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Arm/OptimizerGD.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/OptimizerGD.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/OptimizerGD.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Arm/OptimizerNM.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/OptimizerNM.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Arm/OptimizerNM.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/GLSL.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/GLSL.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/GLSL.cpp"
 },
 {
   "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
@@ -16,28 +41,8 @@
 },
 {
   "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
-  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/ObjectiveLink.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/ObjectiveLink.cpp\"",
-  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/ObjectiveLink.cpp"
-},
-{
-  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
-  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Optimizer.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Optimizer.cpp\"",
-  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Optimizer.cpp"
-},
-{
-  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
-  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/OptimizerBFGS.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerBFGS.cpp\"",
-  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerBFGS.cpp"
-},
-{
-  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
-  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/OptimizerGD.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerGD.cpp\"",
-  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerGD.cpp"
-},
-{
-  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
-  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/OptimizerNM.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerNM.cpp\"",
-  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/OptimizerNM.cpp"
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/PBDobject.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/PBDobject.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/PBDobject.cpp"
 },
 {
   "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
@@ -48,6 +53,11 @@
   "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
   "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Program.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Program.cpp\"",
   "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Program.cpp"
+},
+{
+  "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glm-master\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glew-2.1.0/include\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/eigen-3.4.0\" -I\"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/fcl\"  -Wall -pedantic -o CMakeFiles/Crane.dir/src/Scene.cpp.o -c \"/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Scene.cpp\"",
+  "file": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/src/Scene.cpp"
 },
 {
   "directory": "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build",

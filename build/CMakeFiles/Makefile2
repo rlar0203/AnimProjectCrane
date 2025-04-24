@@ -115,12 +115,12 @@ clean: /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-3.3.9/debu
 CMakeFiles/Crane.dir/all: /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crane.dir/build.make CMakeFiles/Crane.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target Crane"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target Crane"
 .PHONY : CMakeFiles/Crane.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Crane.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" 32
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Crane.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" 0
 .PHONY : CMakeFiles/Crane.dir/rule
@@ -167,7 +167,7 @@ uninstall: /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-3.3.9/
 /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/update_mappings.dir/build.make" "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/update_mappings.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/update_mappings.dir/build.make" "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/update_mappings.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=33 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=35 "Built target update_mappings"
 .PHONY : /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -193,7 +193,7 @@ update_mappings: /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-
 /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/build.make" "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/build.make" "/mnt/c/Users/rlar0/Documents/Programming assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/rlar0/Documents/Programming assignment/CSCE 450/AnimProjectCrane/build/CMakeFiles" --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target glfw"
 .PHONY : /mnt/c/Users/rlar0/Documents/Programming\ assignment/GBIN/glfw-3.3.9/debug/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
